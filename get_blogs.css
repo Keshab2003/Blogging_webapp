@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+ 
+/* .blog-title {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+ 
+.blog-title  img{
+    width: 100%;
+    height: 100%;
+    max-width: 60px;
+    border-radius: 50%;
+    transition: ease-in-out 0.5s;
+}
+
+.blog-title  img:hover{
+    transform: scaleY(1.4);
+}
+
+
+.rightdiv{
+    display: block;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+} 
+.container-new {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #f9f6f2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 20px auto;
+    max-width: 1150px;
+}
+
+.img {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.maindiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+    width: 100%;
+    max-width: 1100px;
+    border: 1px solid #e0e0e0;
+    margin: 20px 20px;
+    border-radius: 17px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.blog-title {
+    width: 100%;
+ 
+    margin: 10px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+ 
+    word-wrap: break-word;
+}
+
+.rightdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.rightdiv span {
+    padding: 10px 12px;
+    margin-bottom: 6px;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #444;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    width: fit-content;
+    max-width: 100%;
+     
+}
+
+.rightdiv .author{
+    background-color: #9a70c0;
+}
+
+.leftdiv{
+    margin: 20px 20px;
+}
+ 
+.leftdiv .img{
+    transition: ease-in-out 0.6s;
+
+}
+
+.leftdiv .img:hover{
+    
+     transform: scaleY(1.1);
+}
+
+.blogging-title h2{
+     
+    text-align: center;
+     
+}
+ */
+
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+ 
+.maindiv {
+  display: flex;  
+  align-items: flex-start; /* Aligns items to the top if their heights differ */
+  gap: 20px;  
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+ 
+.leftdiv {
+  display: flex;
+  flex-direction: column; /* Stacks image and title vertically */
+  align-items: center;  
+  flex-shrink: 0;  
+  width: 200px;  
+  text-align: center; 
+  gap: 10px;
+}
+
+ 
+.container-new .img {
+  height: 190px;
+  width: 190px;
+  object-fit: cover; /* Ensures image fills space without distortion */
+  border-radius: 4px;
+  margin-bottom: 15px;  
+  border: 1px solid #eee;
+}
+ 
+.blog-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  word-break: break-word;  
+  
+}
+
+ 
+.rightdiv {
+  display: flex;
+  flex-direction: column; 
+  flex-grow: 1;  
+  justify-content: space-between;  
+  padding-left: 10px;  
+}
+
+ 
+.desc {
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.6;
+ 
+  margin-bottom: 10px; 
+}
+
+ 
+.author {
+  font-size: 0.85em;
+  color: #777;
+  font-style: italic;
+  text-align: right;  
+  margin-bottom: 0;  
+}
+
+ 
+.container-new {
+  max-width: 1000px; 
+  margin: 30px auto; 
+  padding: 0 15px;  
+}
+
+
+ 
+@media (max-width: 768px) {
+  .maindiv {
+    flex-direction: column;  
+    align-items: center;  
+    gap: 15px;  
+  }
+  .leftdiv {
+    width: 100%; 
+    margin-bottom: 0; 
+  }
+  .rightdiv {
+    padding-left: 0; 
+    width: 100%; 
+  }
+  .author {
+    text-align: center;  
+    margin-top: 10px;  
+  }
+  .container-new .img {
+    margin-bottom: 10px;  
+  }
+}
+
+@media (max-width: 480px) {
+  .container-new .img {
+    height: 150px;
+    width: 150px;
+  }
+  .maindiv {
+    padding: 10px; 
+  }
+}
+
+
+.container-new {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #f9f6f2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 20px auto;
+    max-width: 1150px;
+}

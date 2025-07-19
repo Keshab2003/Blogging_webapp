@@ -1,0 +1,95 @@
+ 
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    /* padding: 30px; */
+  }
+
+  .blog-update-form{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background: #ffffff;
+    /* padding: 25px 30px; */
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .blog-update-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+
+  .blog-update-formlabel {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #555;
+  }
+
+  .blog-update-form input[type="text"],
+  .blog-update-form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #fafafa;
+    resize: vertical;
+    transition: border-color 0.3s;
+    margin-right: 10px;
+  }
+
+  .blog-update-form input[type="text"]:focus,
+  .bblog-update-formtextarea:focus {
+    border-color: #28a745;
+    outline: none;
+    background-color: #fff;
+  }
+
+  .blog-update-form input[type="text"]{
+    max-width: 667px;
+        
+  }
+
+  .blog-update-form textarea {
+    min-height: 150px;
+    max-width: 667px;
+    /* margin-right: 10px; */
+  }
+
+  .blog-update-form input[type="file"] {
+    margin-top: 10px;
+  }
+
+  .blog-update-form button {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .blog-update-form button:hover {
+    background-color: #218838;
+  }
+ 
+
+  .img-upload{
+    text-align: center;
+    justify-content: center;
+  }
+
+
